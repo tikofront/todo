@@ -1,0 +1,16 @@
+@import url("./assets/fonts/fonts.scss");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "OpenSans-400";
+}
+.App {
+    background-color: #e5e5e5;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

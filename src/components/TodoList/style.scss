@@ -1,0 +1,59 @@
+.todo_list_wrapper {
+    min-height: 448px;
+    width: 662px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    & .todo_title {
+        color: #2b2b2b;
+        font-family: "OpenSans-700";
+        font-size: 24px;
+        line-height: 40px;
+    }
+    & .new_task_wrapper {
+        height: 112px;
+        background: #f2f2f7;
+        border-radius: 8px;
+        margin-top: 24px;
+        padding: 16px;
+        & .new_task_title {
+            color: #2b2b2b;
+            font-family: "OpenSans-600";
+            font-size: 16px;
+            line-height: 24px;
+        }
+        & .new_task_inputs_wrapper {
+            height: 40px;
+            display: grid;
+            gap: 8px;
+            grid-template-columns: 1fr 178px 88px;
+        }
+    }
+    & .dates_wrapper {
+        margin-top: 16px;
+        border-radius: 8px;
+        padding: 16px;
+        width: 100%;
+        min-height: 112px;
+        background: #f2f2f7;
+        & .dates_title {
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "OpenSans-600";
+            margin-bottom: 8px;
+        }
+        & .task_item {
+            height: 48px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 16px;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #3a85f7;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+    }
+}
